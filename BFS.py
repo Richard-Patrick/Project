@@ -9,7 +9,6 @@ def bfs(graph, start):
             visited.add(node)
             queue.extend(graph[node])
 
-# Example graph represented as an adjacency list
 graph = {
     'A': ['B', 'C'],
     'B': ['A', 'D', 'E'],
